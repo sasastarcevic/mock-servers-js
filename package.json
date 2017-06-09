@@ -1,0 +1,81 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "mock-servers-js@^1.0.0",
+        "scope": null,
+        "escapedName": "mock-servers-js",
+        "name": "mock-servers-js",
+        "rawSpec": "^1.0.0",
+        "spec": ">=1.0.0 <2.0.0",
+        "type": "range"
+      },
+      "C:\\Users\\sasas\\Downloads\\proba\\test22"
+    ]
+  ],
+  "_from": "mock-servers-js@>=1.0.0 <2.0.0",
+  "_id": "mock-servers-js@1.5.0",
+  "_inCache": true,
+  "_location": "/mock-servers-js",
+  "_nodeVersion": "7.10.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/mock-servers-js-1.5.0.tgz_1497015519436_0.9790666829794645"
+  },
+  "_npmUser": {
+    "name": "sasa.starcevic.00",
+    "email": "sasa.starcevic.00@gmail.com"
+  },
+  "_npmVersion": "4.2.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "mock-servers-js@^1.0.0",
+    "scope": null,
+    "escapedName": "mock-servers-js",
+    "name": "mock-servers-js",
+    "rawSpec": "^1.0.0",
+    "spec": ">=1.0.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mock-servers-js/-/mock-servers-js-1.5.0.tgz",
+  "_shasum": "fd266b4aacf6a55edee0d3b817f20022c522c327",
+  "_shrinkwrap": null,
+  "_spec": "mock-servers-js@^1.0.0",
+  "_where": "C:\\Users\\sasas\\Downloads\\proba\\test22",
+  "author": {
+    "name": "Sasa Starcevic",
+    "email": "sasa.starcevic.00@gmail.com"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "0.0.1-security",
+    "request": "^2.81.0"
+  },
+  "description": "Server mocking based on WireMock library",
+  "devDependencies": {},
+  "directories": {
+    "test": "test"
+  },
+  "dist": {
+    "shasum": "fd266b4aacf6a55edee0d3b817f20022c522c327",
+    "tarball": "https://registry.npmjs.org/mock-servers-js/-/mock-servers-js-1.5.0.tgz"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "sasa.starcevic.00",
+      "email": "sasa.starcevic.00@gmail.com"
+    }
+  ],
+  "name": "mock-servers-js",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.7.0"
+}
