@@ -15,5 +15,10 @@ Setup:
   mock_servers.startWireMock('1001', null);
 ```
 
+Shutdown server:
+```
+  mock_servers.shutDownWireMock('1001');
+```
+
 Server will be started on port '1001'. Use WireMock api to setup new mappings:
 http://wiremock.org/docs/api/

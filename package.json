@@ -63,6 +63,10 @@
     "shasum": "fd266b4aacf6a55edee0d3b817f20022c522c327",
     "tarball": "https://registry.npmjs.org/mock-servers-js/-/mock-servers-js-1.5.0.tgz"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasastarcevic/mock-servers-js.git"
+  },
   "license": "ISC",
   "main": "index.js",
   "maintainers": [
