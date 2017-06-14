@@ -23,18 +23,24 @@ exports.shutDownWireMock = function(port) {
 }
 
 exports.setNewMappingForPort = function(port, jsonBody) {
-	request.post('http://localhost:' + port + "/__admin/mappings/new", jsonBody)
-		.on('response', function(response) {
-				console.log("New mapping added.");
-		})
-		.on('error', function(response) {
-				console.log("Error while adding new mapping.");
-		});
+
+	var options = {
+	  uri: 'http://localhost:' + port + '/__admin/mappings/new',
+	  method: 'POST',
+	  json: jsonBody
+	};
+
+	request(options, function (error, response, body) {
+	  if (!error && response.statusCode == 200) {
+		console.log(response);
+	  }
+	});
 }
 
 function runJavaJar(port, executableLocation, out, err) {
 		console.log("WireMock server on port: "+port);
-		child = spawn('java', ['-jar', executableLocation, '--port', port], {
+		rootDirectory = "./node_modules/mock-servers-js";
+		child = spawn('java', ['-jar', executableLocation, '--port', port, '--root-dir', rootDirectory], {
 				detached: true,
 				stdio: ['ignore', out, err]
 		});
